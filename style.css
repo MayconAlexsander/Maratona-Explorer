@@ -1,0 +1,62 @@
+/* [Font] Rubik (400/700) */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* ===== GLOBAL ========== */
+* {
+    margin: 0;
+    box-sizing:  border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+
+    color: white;
+    background-color: black;
+}
+
+/* ===== CONTAINER ========== */
+#container {
+    width: 80%;
+    max-width: 400px;
+
+    margin-top: 100px;
+    margin-inline: auto;
+}
+
+h1 {
+    margin-block: 40px 10px;
+    opacity: 90%;
+}
+
+p {
+    margin-bottom: 40px;
+    opacity: 70%;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: blueviolet;
+    
+    transition: filter 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
