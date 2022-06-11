@@ -13,14 +13,19 @@
 
 <body>
 
-    <div id="container">
+    <div class="container">
 
         <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Bola de cristal">
         
         <h1>Vou revelar seu destino!</h1>
-        <p>Clique em <strong>Fazer pergunta</strong> para que seu destino seja revelado.</p>
-        <input type="text" placeholder="Digite sua pergunta">
-        <button>Fazer pergunta</button>
+        <p>Clique em <span>Fazer pergunta</span> para que seu destino seja revelado.</p>
+        <input id="pergunta" type="text" placeholder="Faça uma pergunta...">
+        <button onclick="fazerPergunta()">Fazer pergunta</button>
+
+        <div class="resultado">
+            <div id="pergunta-preview"></div>
+            <div id="resposta"></div>
+        </div>
     
     </div>
 
