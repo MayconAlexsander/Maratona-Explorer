@@ -55,8 +55,8 @@ function fazerPergunta() {
 
 
 function opacidadeMaxima() {
-    EL_pergunta_preview.style.opacity = 0.5
-    EL_resposta.style.opacity = 0.9
+    EL_pergunta_preview.style.opacity = 1
+    EL_resposta.style.opacity = 1
 }
 
 function opacidadadeMinima() {
